@@ -10,7 +10,9 @@ function MealItem({name, price, description}){
                 <div className = {classes.description}>{description}</div>
                 <div className = {classes.price}>${price.toFixed(2)}</div>
             </div>
+            <div>
             <MealItemForm/>
+            </div>
         </li>
     )
 }
