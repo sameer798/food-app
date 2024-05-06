@@ -1,12 +1,13 @@
-import Header from './components/Layout/Header'
-import MealSummary from './components/Meals/MealSummary';
-
+import Header from "./components/Layout/Header";
+import Meals from "./components/Meals/Meals";
 
 function App() {
   return (
     <>
-      <Header/>
-      <MealSummary/>
+      <Header />
+      <main>
+        <Meals />
+      </main>
     </>
   );
 }
