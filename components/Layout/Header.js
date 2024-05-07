@@ -7,7 +7,7 @@ function Header(porps) {
     <>
       <header className={classes.header}>
         <h1>Meals</h1>
-        <HeaderCartButton />
+        <HeaderCartButton onClick={porps.onCartShow} />
       </header>
       <div className={classes['main-image']}>
         <img src={mealsImage} alt="A table full of delicius food"/>

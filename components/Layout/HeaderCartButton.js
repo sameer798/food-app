@@ -2,7 +2,7 @@ import CartIcon from '../Cart/CartIcon'
 import classes from './HeaderCartButton.module.css';
 function HeaderCartButton(porps){
     return(
-        <button className={classes.button}>
+        <button className={classes.button} onClick={porps.onClick}>
            <span className={classes.icon}>
             <CartIcon/>
            </span>
