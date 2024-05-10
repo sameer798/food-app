@@ -2,6 +2,7 @@ import classes from "./Cart.module.css";
 import Modal from '../UI/Modal'
 
 function Cart(props) {
+  
   const cartitems = (
     <ul className={classes["cart-items"]}>
       {[{ id: "1", name: "sushi", amount: 24 }].map((list) => (
